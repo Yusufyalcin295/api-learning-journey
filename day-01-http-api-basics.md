@@ -1,12 +1,9 @@
 # Day 01: HTTP & API Fundamentals
 
-> **Choose Language / Dil Seçin:**
-> [English Version](#english-version) | [Türkçe Versiyon](#türkçe-versiyon)
+This document covers the essentials of HTTP and APIs, serving as the foundation for my learning journey.
 
----
 
-<a name="english-version"></a>
-## 🌍 English Version: HTTP & API Fundamentals
+## 🌍 English Version
 
 ## 1. What is an API?
 
@@ -338,7 +335,14 @@ Day 01 builds the **foundation** for everything that follows.
 
 ---
 
-<a name="türkçe-versiyon"></a>
+---
+
+## 🇹🇷 Türkçe Versiyon
+
+<details>
+<summary><b>Türkçe içeriği okumak için buraya tıklayın (Click to expand)</b></summary>
+
+<br>
 
 Bu doküman, API öğrenme yolculuğumun **1. günü** kapsamında, HTTP ve API kavramlarını **en temel seviyeden**, hiçbir boşluk bırakmadan anlamak amacıyla hazırlanmıştır. Teknik terimlerin tamamı sade bir dille açıklanmış, gerektiğinde örneklerle desteklenmiştir.
 
@@ -646,7 +650,7 @@ Bu günün sonunda:
 
 **temelden ve eksiksiz** öğrenmiş oldum.
 
----
+</details>
 
 
 
