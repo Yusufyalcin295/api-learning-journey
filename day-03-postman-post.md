@@ -69,5 +69,7 @@ Send butonuna bastım ve durum kodunu kontrol ettim.
 
 ## 🏁 Summary of Day 03
 Switched from data consumption (GET) to data creation (POST).
+
 Mastered the Request Body and JSON structure.
+
 Confirmed the 201 Created success response with real-world screenshots.
