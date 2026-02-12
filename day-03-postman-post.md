@@ -38,14 +38,17 @@ Result: The server returned 201 Created. This confirms that my data was received
 <details> <summary><b>Türkçe içeriği okumak için buraya tıklayın (Click to expand)</b></summary>
 
 🎯 Bugünün Amacı
+
 Bugün POST metodunu anlamayı ve Request Body (İstek Gövdesi) kullanarak JSON formatında veri göndermeyi hedefledim. GET'in aksine, POST yeni bir kaynak oluşturmak için kullanılır.
 
 ###1. Metot Seçimi
+
 Postman'de yeni bir sekme açtım. Veri göndermek istediğim için açılır menüden metodu GET yerine POST olarak değiştirdim.
 
 ![Postman Method Selection](./images/postman-method-selection.png)
 
 2. İsteği Hazırlama (Gövde ve JSON)
+
 Adres çubuğuna https://jsonplaceholder.typicode.com/posts yazdım. Ardından veriyi hazırlamak için Body ayarlarını yaptım:
 
 Adım: Body sekmesine tıkladım -> raw seçeneğini işaretledim -> listeden JSON formatını seçtim.
@@ -60,6 +63,7 @@ JSON
 }
 
 3. Sonuç (201 Created)
+
 Send butonuna bastım ve durum kodunu kontrol ettim.
 
 Sonuç: Sunucu 201 Created yanıtını döndü. Bu, verimin başarıyla alındığını ve yeni bir kaynağın (ID: 101) oluşturulduğunu kanıtladı.
@@ -69,6 +73,7 @@ Sonuç: Sunucu 201 Created yanıtını döndü. Bu, verimin başarıyla alındı
 </details>
 
 🏁 Summary of Day 03
+
 Switched from data consumption (GET) to data creation (POST).
 
 Mastered the Request Body and JSON structure.
