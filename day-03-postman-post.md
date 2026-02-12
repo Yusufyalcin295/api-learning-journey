@@ -25,7 +25,8 @@ I entered the URL `https://jsonplaceholder.typicode.com/posts`. Then, to send da
     "body": "Learning APIs with my mentor is great!",
     "userId": 1
 }
-'''
+```
+
 3. Final Result (201 Created)
 I clicked Send and checked the status code.
 
