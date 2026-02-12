@@ -27,55 +27,47 @@ I entered the URL `https://jsonplaceholder.typicode.com/posts`. Then, to send da
 }
 ```
 
-3. Final Result (201 Created)
+### 3. Final Result (201 Created)
 I clicked Send and checked the status code.
 
-Result: The server returned 201 Created. This confirms that my data was received and a new resource (ID: 101) was created.
+* **Result:** The server returned 201 Created. This confirms that my data was received and a new resource (ID: 101) was created.
 
 ![Successful POST Request](./images/postman-post-create.png)
 
-🇹🇷 Türkçe Versiyon
+## 🇹🇷 Türkçe Versiyon
 <details> <summary><b>Türkçe içeriği okumak için buraya tıklayın (Click to expand)</b></summary>
 
-🎯 Bugünün Amacı
-
+### 🎯 Bugünün Amacı
 Bugün POST metodunu anlamayı ve Request Body (İstek Gövdesi) kullanarak JSON formatında veri göndermeyi hedefledim. GET'in aksine, POST yeni bir kaynak oluşturmak için kullanılır.
 
-###1. Metot Seçimi
-
+### 1. Metot Seçimi
 Postman'de yeni bir sekme açtım. Veri göndermek istediğim için açılır menüden metodu GET yerine POST olarak değiştirdim.
 
 ![Postman Method Selection](./images/postman-method-selection.png)
 
-2. İsteği Hazırlama (Gövde ve JSON)
-
+### 2. İsteği Hazırlama (Gövde ve JSON)
 Adres çubuğuna https://jsonplaceholder.typicode.com/posts yazdım. Ardından veriyi hazırlamak için Body ayarlarını yaptım:
 
-Adım: Body sekmesine tıkladım -> raw seçeneğini işaretledim -> listeden JSON formatını seçtim.
+* **Adım:** Body sekmesine tıkladım -> raw seçeneğini işaretledim -> listeden JSON formatını seçtim.
+* **Veri:** Aşağıdaki JSON kodunu yazdım:
 
-Veri: Aşağıdaki JSON kodunu yazdım:
-
+```
 JSON
 {
     "title": "My First API Post",
     "body": "Learning APIs with my mentor is great!",
     "userId": 1
 }
-
-3. Sonuç (201 Created)
-
+```
+### 3.Sonuç (201 Created)
 Send butonuna bastım ve durum kodunu kontrol ettim.
-
-Sonuç: Sunucu 201 Created yanıtını döndü. Bu, verimin başarıyla alındığını ve yeni bir kaynağın (ID: 101) oluşturulduğunu kanıtladı.
+* **Sonuç:** Sunucu 201 Created yanıtını döndü. Bu, verimin başarıyla alındığını ve yeni bir kaynağın (ID: 101) oluşturulduğunu kanıtladı.
 
 ![Successful POST Request](./images/postman-post-create.png)
 
 </details>
 
-🏁 Summary of Day 03
-
+## 🏁 Summary of Day 03
 Switched from data consumption (GET) to data creation (POST).
-
 Mastered the Request Body and JSON structure.
-
 Confirmed the 201 Created success response with real-world screenshots.
