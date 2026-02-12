@@ -25,7 +25,7 @@ I entered the URL `https://jsonplaceholder.typicode.com/posts`. Then, to send da
     "body": "Learning APIs with my mentor is great!",
     "userId": 1
 }
-
+'''
 3. Final Result (201 Created)
 I clicked Send and checked the status code.
 
@@ -39,7 +39,7 @@ Result: The server returned 201 Created. This confirms that my data was received
 🎯 Bugünün Amacı
 Bugün POST metodunu anlamayı ve Request Body (İstek Gövdesi) kullanarak JSON formatında veri göndermeyi hedefledim. GET'in aksine, POST yeni bir kaynak oluşturmak için kullanılır.
 
-1. Metot Seçimi
+###1. Metot Seçimi
 Postman'de yeni bir sekme açtım. Veri göndermek istediğim için açılır menüden metodu GET yerine POST olarak değiştirdim.
 
 ![Postman Method Selection](./images/postman-method-selection.png)
